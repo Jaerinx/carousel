@@ -1,0 +1,23 @@
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.embla {
+  overflow: hidden;
+  width: 40%;
+}
+
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+}
+.embla__slide {
+  min-width: fit-content;
+  min-height: fit-content;
+}
